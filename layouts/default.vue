@@ -1,6 +1,6 @@
 <template>
-  <div class="app">
-    <!-- <AppHeader /> -->
+  <div class="app" dir="rtl">
+    <Navbar />
     <div class="app-body">
       <!-- <Sidebar :navItems="nav" /> -->
       <main class="main">
@@ -15,4 +15,12 @@
   </div>
 </template>
 
-<style></style>
+<script>
+import Navbar from "~/components/Header/Navbar";
+
+export default {
+  components: {
+    Navbar
+  }
+};
+</script>
