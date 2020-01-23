@@ -1,4 +1,4 @@
-# nuxt-auth1
+# nuxt-auth
 
 > My mind-blowing Nuxt.js project
 
